@@ -8,11 +8,7 @@ public class StringReverser {
             throw new IllegalArgumentException();
         }
         Stack<Character> stack= new Stack<>();
-       // for(int i=0;i<input.length();i++)
-        //{
-           // stack.push(input.charAt(i));
-        //}
-
+       
         for (char ch:input.toCharArray())
             stack.push(ch);
 
